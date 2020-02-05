@@ -1,6 +1,5 @@
 <?php
 	class czas{
-		public $terazCzas;
 		
 		function teraz($miejsce="Europe/Warsaw"){//Zwraca aktualny czas.
 		if($miejsce!=date_default_timezone_get())
